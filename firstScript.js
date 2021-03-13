@@ -22,3 +22,6 @@ let c = 3.4;
 let d = c * a;
 
 console.log("d: " + d);
+
+var myString = `"double quate and 'single'"`;
+console.log(myString);

@@ -18,7 +18,7 @@ This is a youtube tutorial from FreeCodeCamp.org
 
 ## Current Progress In The Tutorial
 
-![progress](https://img.shields.io/badge/Progress-00.23.21%20|%203.26.42-blue)
+![progress](https://img.shields.io/badge/Progress-00.31.12%20|%203.26.42-blue)
 
 ## Personal Changes
 
