@@ -21,6 +21,9 @@ function dividedWindow() {
     var text = document.createTextNode("this is the first part");
     tag.appendChild(text);
     newDiv.appendChild(tag);
+    newDiv.setAttribute("id", "asideUpper");
+
+    asideDiv.appendChild(newDiv);
 
     newDiv = document.createElement("div");
     newDiv.className = "asideDiv lowerAsideDiv";
@@ -30,20 +33,29 @@ function dividedWindow() {
     tag.appendChild(text);
     newDiv.appendChild(tag);
 
+    asideDiv.appendChild(newDiv);
+
     //append to the body element
     document.body.appendChild(asideDiv);
 
     //style with borders
-    var asideDivs = document.getElementsByClassName;
-
-    for (const asideDiv of asideDivs) {
-      iterator.style.border = "1px solid red";
-    }
+    asideDiv.style.cssText = "height:100%;" + "border: 2px solid red";
+    newDiv.style.cssText = "height:50%; border:2px solid green";
+    document.getElementById("asideUpper").style.cssText =
+      "height:50%;" + "border:2px solid blue";
 
     // make grid 2fr 1 fr
+    var body = document.body;
+    body.style.cssText =
+      "width:100vw;" +
+      "height:100vh;" +
+      "border: 2px solid yellowgreen;" +
+      "padding:10px;" +
+      "display:grid; " +
+      "grid-template-columns:2fr 1fr";
 
     //alert
-    alert("3 window will be initiated");
+    // alert("3 window will be initiated");
   } else {
     //alert
     alert("3 window is already exists");

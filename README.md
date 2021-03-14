@@ -294,7 +294,7 @@ This is a youtube tutorial from FreeCodeCamp.org
 
 ## Personal Changes
 
-- .
+- Functions Page: Added DOM manipulations to create a 3 part view in a page with a button click
 
 ## Personal Notes
 
