@@ -25,3 +25,9 @@ console.log("d: " + d);
 
 var myString = `"double quate and 'single'"`;
 console.log(myString);
+
+console.log(myString.length);
+
+for (var i = 0; i < myString.length; i++) {
+  console.log(myString[i]);
+}
