@@ -10,3 +10,11 @@ var multiDimensionalArray = [
   ["everthing", 101010],
 ];
 console.log(multiDimensionalArray); //interessant
+
+var exampleArray = ["Stimpson", "J", "cat"];
+let shiftedElement = exampleArray.shift();
+console.log("Array is: " + exampleArray);
+console.log(shiftedElement);
+
+exampleArray.unshift(660);
+console.log(exampleArray);
