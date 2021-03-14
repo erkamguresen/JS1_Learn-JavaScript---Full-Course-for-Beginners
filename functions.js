@@ -47,7 +47,7 @@ function dividedWindow() {
     // make grid 2fr 1 fr
     var body = document.body;
     body.style.cssText =
-      "width:100vw;" +
+      "width:100%;" +
       "height:100vh;" +
       "border: 2px solid yellowgreen;" +
       "padding:10px;" +
@@ -55,7 +55,7 @@ function dividedWindow() {
       "grid-template-columns:2fr 1fr";
 
     //alert
-    // alert("3 window will be initiated");
+    alert("3 window will be initiated");
   } else {
     //alert
     alert("3 window is already exists");
