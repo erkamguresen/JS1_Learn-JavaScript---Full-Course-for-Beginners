@@ -26,3 +26,4 @@ function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
 
 console.log(wordBlanks("dog", "big", "run", "quickly"));
 console.log(wordBlanks("dog", "big", 3, "quickly")); //interessant
+console.log(wordBlanks("bike", "big")); //interessant: The big bike undefined to the store undefined
