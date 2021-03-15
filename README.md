@@ -20,6 +20,15 @@ This is a youtube tutorial from FreeCodeCamp.org
 
 ![progress](https://img.shields.io/badge/Progress-00.52.32%20|%203.26.42-blue)
 
+## Personal Changes
+
+- Functions Page: Added DOM manipulations to create a 3 part view in a page with a button click, and if it is already exists it warns about it
+- wiki search bookmarklet example is tested
+
+## Personal Notes
+
+- .
+
 ## ⭐️Course Contents⭐️
 
 0:00:00​ Introduction
@@ -291,11 +300,3 @@ This is a youtube tutorial from FreeCodeCamp.org
 3:24:50​ export default
 
 3:25:26​ Import a Default Export
-
-## Personal Changes
-
-- Functions Page: Added DOM manipulations to create a 3 part view in a page with a button click
-
-## Personal Notes
-
-- .
