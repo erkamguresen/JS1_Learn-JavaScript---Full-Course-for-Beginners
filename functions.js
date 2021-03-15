@@ -61,3 +61,28 @@ function dividedWindow() {
     alert("3 window is already exists");
   }
 }
+
+function caseInSwitch(value) {
+  var returnVar = "";
+  switch (value) {
+    case 1:
+      returnVar = "alpha";
+      break;
+    case 2:
+      returnVar = "beta";
+      break;
+    case 3:
+      returnVar = "gamma";
+      break;
+    case 4:
+      returnVar = "delta";
+      break;
+    default:
+      returnVar = "theta";
+      break;
+  }
+
+  return returnVar;
+}
+
+console.log(caseInSwitch(4));

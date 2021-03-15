@@ -18,12 +18,12 @@ This is a youtube tutorial from FreeCodeCamp.org
 
 ## Current Progress In The Tutorial
 
-![progress](https://img.shields.io/badge/Progress-01.08.39%20|%203.26.42-blue)
+![progress](https://img.shields.io/badge/Progress-01.35.41%20|%203.26.42-blue)
 
-## Personal Changes
+## Personal Changes & Additions
 
 - Functions Page: Added DOM manipulations to create a 3 part view in a page with a button click, and if it is already exists it warns about it
-- wiki search bookmarklet example is tested
+- Functions Page: wiki search bookmarklet example is tested
 
 ## Personal Notes
 
