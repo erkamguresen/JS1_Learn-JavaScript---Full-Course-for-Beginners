@@ -33,5 +33,15 @@ const sumWithRest = (function () {
 })();
 
 console.log("hi"); //says result is 5 2 times with a 2 in the beginning, interesting
-console.log(sum(1, 2, 3));
-console.log(sum(1, 2, 3, 4));
+console.log(sumWithRest(1, 2, 3));
+console.log(sumWithRest(1, 2, 3, 4));
+
+//why not use this simplified version?
+function sum2(...args) {
+  // const args = [x, y, z];
+  return args.reduce((a, b) => a + b, 0);
+}
+
+console.log("hi"); //says result is 5 2 times with a 2 in the beginning, interesting
+console.log(sum2(1, 2, 3));
+console.log(sum2(1, 2, 3, 4));
