@@ -45,3 +45,13 @@ function sum2(...args) {
 console.log("hi"); //says result is 5 2 times with a 2 in the beginning, interesting
 console.log(sum2(1, 2, 3));
 console.log(sum2(1, 2, 3, 4));
+
+const array1 = ["jan", "feb", "mar", "apr", "may", "jun", "jul"];
+
+let array2;
+
+(function () {
+  array2 = [...array1]; //array copy
+  array1[0] = "potato";
+})();
+console.log(array2);
