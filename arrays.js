@@ -18,3 +18,6 @@ console.log(shiftedElement);
 
 exampleArray.unshift(660);
 console.log(exampleArray);
+
+const [z, y, , x] = [1, 2, 3, 4, 5, 6];
+console.log(z, y, x);

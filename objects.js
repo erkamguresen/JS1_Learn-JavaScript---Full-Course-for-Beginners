@@ -73,3 +73,18 @@ function getTemperatureOfTomorrow(avgTemperatures) {
 }
 
 console.log(getTemperatureOfTomorrow(AVG_TEMPERATURES));
+
+const LOCAL_FORECAST = {
+  today: { min: 72, max: 83 },
+  tomorrow: { min: 73.3, max: 84.6 },
+};
+
+function getMaxTempretureOfTomorrow(forecast) {
+  "use strict";
+  const {
+    tomorrow: { max: maxTemperatureOfTomorrow },
+  } = forecast;
+  return maxTemperatureOfTomorrow;
+}
+
+console.log(getMaxTempretureOfTomorrow(LOCAL_FORECAST));
