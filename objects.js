@@ -23,7 +23,7 @@ var collection = {
 var copyOfCollection = JSON.parse(JSON.stringify(collection));
 
 // update the collection and return It
-//TODO track if you do not return the collection
+// track if you do not return the collection
 // (My guess: it should be the same results)
 function updateRecords(id, property, value) {
   //if we have an empty value it should delete the property (requirement)
