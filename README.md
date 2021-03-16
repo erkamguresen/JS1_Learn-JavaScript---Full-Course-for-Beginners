@@ -28,7 +28,7 @@ This is a youtube tutorial from FreeCodeCamp.org
 
 ## Personal Notes
 
-- .
+- This tutorial explains the JS language and general programming things in a short and clear way but for web development purposes you need DOM Manipulation tutorials afterwards.
 
 ## ⭐️Course Contents⭐️
 
