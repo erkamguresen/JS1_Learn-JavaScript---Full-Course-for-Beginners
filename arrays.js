@@ -21,3 +21,24 @@ console.log(exampleArray);
 
 const [z, y, , x] = [1, 2, 3, 4, 5, 6];
 console.log(z, y, x);
+
+let a = 8,
+  b = 6;
+console.log(a, b);
+
+(() => {
+  "use strict";
+  [a, b] = [b, a];
+})();
+
+console.log(a, b);
+
+const source = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+function removeFirstTwoElement(list) {
+  const [, , ...returnArray] = list;
+  return returnArray;
+}
+
+console.log(source);
+console.log(removeFirstTwoElement(source));
