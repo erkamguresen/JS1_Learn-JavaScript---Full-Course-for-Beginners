@@ -86,3 +86,14 @@ function caseInSwitch(value) {
 }
 
 console.log(caseInSwitch(4));
+
+
+const createdPerson = (name,  age, gender){
+  return{
+    name: name,
+    age: age,
+    gender: gender
+  };
+};
+
+console.log(createdPerson('Zodiac Hasbro', 56, 'male'));
