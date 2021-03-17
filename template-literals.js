@@ -26,3 +26,11 @@ function makeList(array) {
 console.log(makeList(result.success));
 console.log(makeList(result.failure));
 console.log(makeList(result.skipped));
+
+//cool feature you can insert specific elements to specific positions of an empty array
+const arrayTrial = [];
+
+arrayTrial[1] = 1;
+arrayTrial[10] = 10;
+
+console.log(arrayTrial);
