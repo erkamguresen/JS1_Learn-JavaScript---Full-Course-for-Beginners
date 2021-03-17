@@ -88,3 +88,13 @@ function getMaxTemperatureOfTomorrow(forecast) {
 }
 
 console.log(getMaxTemperatureOfTomorrow(LOCAL_FORECAST));
+
+const bike = {
+  gear: 2,
+  setGear(newGear) {
+    "use strict";
+    this.gear = newGear;
+  },
+};
+
+console.log(bike.setGear(3).gear);
