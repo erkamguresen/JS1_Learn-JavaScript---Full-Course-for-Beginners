@@ -79,7 +79,7 @@ const LOCAL_FORECAST = {
   tomorrow: { min: 73.3, max: 84.6 },
 };
 
-function getMaxTempretureOfTomorrow(forecast) {
+function getMaxTemperatureOfTomorrow(forecast) {
   "use strict";
   const {
     tomorrow: { max: maxTemperatureOfTomorrow },
@@ -87,4 +87,4 @@ function getMaxTempretureOfTomorrow(forecast) {
   return maxTemperatureOfTomorrow;
 }
 
-console.log(getMaxTempretureOfTomorrow(LOCAL_FORECAST));
+console.log(getMaxTemperatureOfTomorrow(LOCAL_FORECAST));
