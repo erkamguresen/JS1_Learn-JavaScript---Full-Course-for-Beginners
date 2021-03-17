@@ -42,12 +42,40 @@ console.log(myCar2.present());
 var person = {
   firstName: "John",
   lastName: "Doe",
+
+  get fullName() {
+    return this.firstName + " " + this.lastName;
+  },
+
   language: "",
   set lang(lang) {
     this.language = lang.toUpperCase();
+  },
+  get lang() {
+    return this.language;
   },
 };
 // Set a property using set:
 person.lang = "en";
 // Display data from the object:
-document.getElementById("demo").innerHTML = person.language;
+console.log(person.language);
+//get the data with getter
+console.log(person.lang);
+console.log(person.fullName);
+
+var x1 = {}; // object
+var x2 = ""; // string
+var x3 = 0; // number
+var x4 = false; // boolean
+var x5 = []; // object (not array)
+var x6 = /()/; // object as Regular Expression
+var x7 = function () {}; // function
+
+// Display the type of all
+console.log("x1: " + typeof x1);
+console.log("x2: " + typeof x2);
+console.log("x3: " + typeof x3);
+console.log("x4: " + typeof x4);
+console.log("x5: " + typeof x5);
+console.log("x6: " + typeof x6);
+console.log("x7: " + typeof x7);
