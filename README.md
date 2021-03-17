@@ -29,6 +29,8 @@ This is a youtube tutorial from FreeCodeCamp.org
 ## Personal Notes
 
 - This tutorial explains the JS language and general programming things in a short and clear way but for web development purposes you need DOM Manipulation tutorials afterwards.
+- 'Class' part is terrible. If you do not have an OOP background, this part will confuse you and mislead you. I recommend checking [W3 school's website](https://www.w3schools.com/js/js_classes.asp) for clear information.
+- Variable naming in 'Class' part is terrible and confusing.
 
 ## ⭐️Course Contents⭐️
 
