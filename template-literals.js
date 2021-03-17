@@ -8,7 +8,7 @@ I am ${person.age} years old.`;
 console.log(greetings);
 
 const result{
-    success: [],
-    failure:[],
-    
+    success: ['max-lenght', 'no-amd','prefer-arrow-functions'],
+    failure: ['no-var''var-on-top','line-break'],
+    skipped: ['id-blacklist','no-dup-keys']
 };
