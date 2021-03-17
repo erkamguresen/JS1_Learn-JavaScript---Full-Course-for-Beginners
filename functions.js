@@ -87,13 +87,22 @@ function caseInSwitch(value) {
 
 console.log(caseInSwitch(4));
 
-
-const createdPerson = (name,  age, gender){
-  return{
+//long way
+const createdPerson = (name, age, gender) => {
+  return {
     name: name,
     age: age,
-    gender: gender
+    gender: gender,
   };
 };
 
-console.log(createdPerson('Zodiac Hasbro', 56, 'male'));
+console.log(createdPerson("Zodiac Hasbro", 56, "male"));
+
+//short way
+const createdPerson2 = (name, age, gender) => ({
+  name,
+  age,
+  gender,
+});
+
+console.log(createdPerson2("Zodiac Hasbro", 56, "male"));
