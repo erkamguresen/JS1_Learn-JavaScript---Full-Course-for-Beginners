@@ -6,3 +6,9 @@ const greetings = `Hello, my name is ${person.name}!
 I am ${person.age} years old.`;
 
 console.log(greetings);
+
+const result{
+    success: [],
+    failure:[],
+    
+};
