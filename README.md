@@ -8,17 +8,17 @@ This is a youtube tutorial from FreeCodeCamp.org
 
 ## Tutorial status
 
-![Build Status](https://img.shields.io/badge/tutorial-in%20progress-yellowgreen)
+<!-- ![Build Status](https://img.shields.io/badge/tutorial-in%20progress-yellowgreen) -->
 
 <!-- ![Build Status](https://img.shields.io/badge/build-work%20in%20progress-yellowgreen) -->
 
-<!-- ![Build Status](https://img.shields.io/badge/build-completed-brightgreen) -->
+![Build Status](https://img.shields.io/badge/tutorial-completed-brightgreen)
 
 <!-- - Current progress in tutorial : **Finished** -->
 
 ## Current Progress In The Tutorial
 
-![progress](https://img.shields.io/badge/Progress-03.20.51%20|%203.26.42-blue)
+![progress](https://img.shields.io/badge/Progress-03.26.42%20|%2003.26.42-blue)
 
 ## Personal Changes & Additions
 
