@@ -97,4 +97,5 @@ const bike = {
   },
 };
 
-console.log(bike.setGear(3).gear);
+bike.setGear(3);
+console.log(bike.gear);
