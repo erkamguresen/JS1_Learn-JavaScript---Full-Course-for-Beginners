@@ -23,4 +23,6 @@ function makeList(array) {
   return resultDisplayArray;
 }
 
+console.log(makeList(result.success));
 console.log(makeList(result.failure));
+console.log(makeList(result.skipped));
