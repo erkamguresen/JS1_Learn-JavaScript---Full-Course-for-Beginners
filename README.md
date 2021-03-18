@@ -25,6 +25,7 @@ This is a youtube tutorial from FreeCodeCamp.org
 - Functions Page: Added DOM manipulations to create a 3 part view in a page with a button click, and if it is already exists it warns about it
 - Functions Page: wiki search bookmarklet example is tested
 - Default Parameters Page: tried a cleaner code for the increment function that does the same job
+- Default Parameters Page: examples from Evan (Hack Your Future) coach about assigning functions to 'const'
 
 ## Personal Notes
 
