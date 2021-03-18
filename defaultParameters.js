@@ -55,3 +55,27 @@ let array2;
   array1[0] = "potato";
 })();
 console.log(array2);
+
+//From Evan-HackYourFuture
+console.log("HYF part");
+const increment2 = (function (value = 1) {
+  return function increment2(number) {
+    return number + value;
+  };
+})(2);
+console.log(increment2(5));
+console.log(increment2(5));
+
+const incrementFactory = function (value = 1) {
+  return function increment(number) {
+    return number + value;
+  };
+};
+
+const incrementFromTwo = incrementFactory(2);
+console.log(incrementFromTwo(5));
+console.log(incrementFromTwo(5));
+
+const incrementFromFour = incrementFactory(4);
+console.log(incrementFromFour(5));
+console.log(incrementFromFour(5));
